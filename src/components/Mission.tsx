@@ -5,7 +5,7 @@ import { Target, Heart, BookOpen, Rocket } from "lucide-react";
 export const Mission = () => {
   const missions = [
     {
-      icon: <Heart className="w-8 h-8 text-red-500" />,
+      icon: <Heart className="w-8 h-8 text-pink-500" />,
       title: "Engage",
       description: "We bring people together through community conversations, collaborative projects, and shared experiences that spark curiosity and connection."
     },
@@ -15,22 +15,22 @@ export const Mission = () => {
       description: "From Web3 artists and DJs to digital beach parties, we infuse fun into every layer of the crypto journey."
     },
     {
-      icon: <BookOpen className="w-8 h-8 text-blue-500" />,
+      icon: <BookOpen className="w-8 h-8 text-orange-500" />,
       title: "Educate",
       description: "We break down blockchain and crypto topics into simple, safe, and practical lessons so anyone can participate confidently."
     },
     {
-      icon: <Rocket className="w-8 h-8 text-orange-500" />,
+      icon: <Rocket className="w-8 h-8 text-pink-600" />,
       title: "Empower",
       description: "We help you take your ideas from inspiration to execution using decentralized tools, creative support, and a thriving network of builders."
     }
   ];
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-l from-blue-50 to-orange-50">
+    <section className="py-20 px-4 bg-gradient-to-l from-purple-50 via-pink-50 to-orange-50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-600 via-pink-500 to-orange-500 bg-clip-text text-transparent mb-6">
             🎯 Our Mission
           </h2>
           <p className="text-xl text-gray-600 font-semibold">
@@ -40,7 +40,7 @@ export const Mission = () => {
         
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           {missions.map((mission, index) => (
-            <Card key={index} className="p-8 hover:shadow-xl transition-all duration-300 transform hover:scale-105 bg-white/90 backdrop-blur-sm">
+            <Card key={index} className="p-8 hover:shadow-xl transition-all duration-300 transform hover:scale-105 bg-gradient-to-br from-white to-orange-50 border-0">
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0">
                   {mission.icon}
@@ -54,7 +54,7 @@ export const Mission = () => {
           ))}
         </div>
         
-        <div className="text-center bg-gradient-to-r from-orange-500 to-blue-500 text-white p-8 rounded-2xl">
+        <div className="text-center bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 text-white p-8 rounded-2xl">
           <p className="text-lg font-medium">
             We're not just a club—we're a movement for those who want to live free, learn often, and build boldly in Web3.
           </p>

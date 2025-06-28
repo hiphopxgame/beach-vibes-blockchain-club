@@ -4,7 +4,7 @@ import { Waves, Bitcoin, Palmtree } from "lucide-react";
 
 export const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-orange-400 via-orange-500 to-blue-500">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-orange-400 via-pink-500 to-purple-600">
       {/* Animated background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-10 left-10 animate-bounce">
@@ -19,14 +19,14 @@ export const Hero = () => {
       </div>
       
       <div className="text-center text-white z-10 px-4 max-w-4xl mx-auto">
-        {/* Bitcoin Logo */}
+        {/* Bitcoin Beach Logo */}
         <div className="mb-8 flex justify-center">
           <div className="relative">
-            <div className="w-32 h-32 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center animate-pulse">
+            <div className="w-40 h-40 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center animate-pulse">
               <img 
-                src="/lovable-uploads/cdbe0cc9-9305-4c62-9e89-11264215a3e8.png" 
-                alt="Bitcoin" 
-                className="w-20 h-20"
+                src="/lovable-uploads/3edaeb72-fb89-4ca6-a72b-966435e04898.png" 
+                alt="Bitcoin Beach Club" 
+                className="w-32 h-32 rounded-full"
               />
             </div>
             <div className="absolute -inset-4 bg-white/5 rounded-full animate-ping"></div>
@@ -44,14 +44,14 @@ export const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button 
             size="lg" 
-            className="bg-white text-orange-500 hover:bg-orange-50 font-semibold px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
+            className="bg-white text-purple-600 hover:bg-orange-50 font-semibold px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
           >
             Join the Community
           </Button>
           <Button 
             size="lg" 
             variant="outline" 
-            className="border-2 border-white text-white bg-black/20 hover:bg-white hover:text-orange-500 font-semibold px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105 backdrop-blur-sm"
+            className="border-2 border-white text-white bg-black/20 hover:bg-white hover:text-purple-600 font-semibold px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105 backdrop-blur-sm"
           >
             Explore Events
           </Button>
