@@ -1,4 +1,3 @@
-
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Calendar, Handshake, Sparkles } from "lucide-react";
@@ -65,7 +64,7 @@ export const GetInvolved = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-white text-white hover:bg-white hover:text-orange-500 font-semibold px-8 py-4 rounded-full text-lg transition-all duration-300 transform hover:scale-105"
+              className="border-2 border-white text-white bg-black/20 hover:bg-white hover:text-orange-500 font-semibold px-8 py-4 rounded-full text-lg transition-all duration-300 transform hover:scale-105 backdrop-blur-sm"
             >
               Learn More
             </Button>
