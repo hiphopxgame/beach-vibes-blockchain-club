@@ -23,7 +23,7 @@ export const Footer = () => {
             <span>for the crypto community</span>
           </p>
           <p className="text-gray-500 text-sm mt-2">
-            © 2024 Bitcoin Beach Club. Live free, learn often, build boldly.
+            © 2025 Bitcoin Beach Club. Live free, learn often, build boldly.
           </p>
         </div>
       </div>

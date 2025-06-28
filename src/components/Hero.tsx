@@ -51,7 +51,7 @@ export const Hero = () => {
           <Button 
             size="lg" 
             variant="outline" 
-            className="border-white text-white hover:bg-white hover:text-orange-500 font-semibold px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
+            className="border-2 border-white text-white bg-black/20 hover:bg-white hover:text-orange-500 font-semibold px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105 backdrop-blur-sm"
           >
             Explore Events
           </Button>
