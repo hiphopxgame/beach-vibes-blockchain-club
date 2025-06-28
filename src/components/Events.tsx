@@ -60,7 +60,7 @@ export const Events = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-white text-white hover:bg-white hover:text-blue-600 font-semibold px-8 py-3 rounded-full"
+              className="border-2 border-white text-white bg-black/20 hover:bg-white hover:text-blue-600 font-semibold px-8 py-3 rounded-full backdrop-blur-sm"
             >
               Get Notified
             </Button>
